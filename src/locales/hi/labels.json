@@ -1,0 +1,528 @@
+{
+  "globalLabels": {
+    "emailId": "Email Id",
+    "status": "Status",
+    "source": "Source",
+    "code": "Code",
+    "dateOfBirth": "Date Of Birth",
+    "inactivationReason": "Inactivation Reason",
+    "serviceMaster": "Service Master",
+    "service": "Service",
+    "serviceCategory": "Service Category",
+    "serviceCategoryCode": "Service Category Code",
+    "serviceName": "Service Name",
+    "serviceCode": "Service Code",
+    "department": "Department",
+    "departmentCode": "Department Code",
+    "departmentName": "Department Name",
+    "subDepartment": "Sub-Department",
+    "subDepartmentCode": "Sub-Department Code",
+    "subDepartmentName": "Sub-Department Name",
+    "registrationDateAndTime": "Registration Date & Time",
+    "minimumAge": "Minimum Age",
+    "maximumAge": "Maximum Age",
+    "planApplicableToGender": "Plan Applicable To Gender",
+    "advancedRequired": "Advanced Required",
+    "basicTotal": "Basic Total",
+    "discount": "Discount",
+    "saleRate": "Sale Rate",
+    "remarks": "Remarks",
+    "serviceCategoryName": "Service Category Name",
+    "city": "City",
+    "branch": "Branch",
+    "reset": "Reset",
+    "streetAddress": "Street Address",
+    "landmark": "Landmark",
+    "villageRegion": "Village/Region",
+    "address": "Address",
+    "district": "District",
+    "taluka": "tatialdjaoidhnaidi",
+    "pinCode": "Pin Code",
+    "state": "State",
+    "country": "Country",
+    "mobileNo": "Mobile No.",
+    "alternateNo": "Alternate No.",
+    "faxNo": "Fax No.",
+    "website": "Website",
+    "cardType": "Card Type",
+    "serviceCharges": "Service Charges",
+    "mapWithGender": "Map With Gender",
+    "specialisation": "Specialisation",
+    "patientSubType": "Patient Sub-Type",
+    "isMandatory": "Is Mandatory",
+    "doctorName": "Doctor Name",
+    "doctorCode": "Doctor Code",
+    "firstName": "First Name",
+    "middleName": "Middle Name",
+    "lastName": "Last Name",
+    "degree": "Degree",
+    "dob": "DOB",
+    "plotNo": "Plot No.",
+    "bldgName": "Bldg Name",
+    "blockNo": "Block No.",
+    "roadName": "Road Name",
+    "gender": "Gender",
+    "area": "Area",
+    "residentialContactNo": "Residential Contact No.",
+    "clinicBranchName": "Clinic/Branch Name",
+    "contactNo": "Contact No.1",
+    "mobileNo1": "Mobile No. 1",
+    "mobileNo2": "Mobile No. 2",
+    "icdCategory": "ICD Category",
+    "icdSubCategory": "ICD Sub-Category",
+    "icdCode": "ICD Code",
+    "disease": "Disease",
+    "prefix": "Prefix",
+    "addressLine1": "Address Line 1",
+    "addressLine2": "Address Line 2",
+    "addressLine3": "Address Line 3",
+    "stdCode1": "STD Code 1",
+    "landLineNo1": "Landline Number 1",
+    "stdCode2": "STD Code 2",
+    "landLineNo2": "Landline Number 2",
+    "extensionNumber1": "Extension Number 1",
+    "extensionNumber2": "Extension Number 2",
+    "patientType": "Patient Type",
+    "maritalStatus": "Marital Status",
+    "maritalStatusCode": "Marital Status Code",
+    "fromDate": "From Date",
+    "toDate": "To Date",
+    "patientName": "Patient Name",
+    "appointmentNo": "Appointment No.",
+    "addressOne": "Address 1",
+    "addressTwo": "Address 2",
+    "mobileNumberOne": "Mobile No. 1",
+    "mobileNumberTwo": "Mobile No. 2",
+    "streetName": "Street / Road Name",
+    "registrationNumber": "Registration No",
+    "patientRegistration": "Patient Registration",
+    "upload": "Upload",
+    "permanentAddress": "Permanent Address",
+    "correspondenceAddress": "Correspondence Address",
+    "contactDetails": "Contact Details",
+    "identityProof": "Identify Proof",
+    "date": "Date",
+    "visitDate": "Visit Date",
+    "personName": "Person Name",
+    "specialisationFaculty": "Specialisation / Faculty",
+    "level": "Level",
+    "doctorType": "Doctor Type",
+    "settlementType": "Settlement Type",
+    "address1": "Address 1",
+    "address2": "Address 2",
+    "onlineConsultation": "Online Consultation",
+    "instituteName": "Institute Name",
+    "contactPerson": "Contact Person",
+    "mobileNoOneWhatsapp": "Mobile No. 1 (Whatsapp) ",
+    "paymentType":"Payment Type",
+    "paymentMethod":"Payment Mode",
+    "refNo":"Ref. No.",
+    "amount":"Amount (Rs.)",
+    "doctor": "Doctor",
+    "corporateName": "Corporate Name",
+    "paymentBy": "Payment By"
+  },
+  "scheduleAppointment": {
+    "appointmentMobileNo": "Appointment Mobile No.",
+    "clinicBranch": "Clinic Branch",
+    "specialisation": "Specialisation",
+    "referringDoctor": "Referring Doctor / Organization",
+    "startTime": "Start Time",
+    "endTime": "End Time",
+    "appointmentDate": "Appointment Date",
+    "source": "Source",
+    "patientRegistration": "Patient Registration",
+    "purposeOfVisit": "Purpose Of Visit"
+  },
+  "configurationMaster": {
+    "isOPDTokenNo": "Is OPD Token No.",
+    "doctorWise": "Doctor Wise",
+    "clinicWise": "Clinic Wise",
+    "showPatientAdmissionRequest": "Show Patient Admission Request",
+    "allowtoplaceOrderinLaboratry/Radiology": "Allow to place Order in Laboratry / Radiology",
+    "showPatientInvestigationBIlling": "Show Patient Investigation BIlling",
+    "writeOffLimit": "Write Off Limit",
+    "writeOffDays": "Write Off Days",
+    "maxOPDDiscount(in %)": "Max OPD Discount (in %)",
+    "maxIPDDiscount(in %)": "Max IPD Discount (in %)",
+    "minOPDReceivedAmount": "Min OPD Received Amount",
+    "minIPDReceivedAmount": "Min IPD Received Amount",
+    "maxCashRefundAmount": "Max Cash Refund Amount",
+    "pharmacySaleBufferDays": "Pharmacy Sale Buffer Days",
+    "baseCurrency": "Base Currency",
+    "ipPharmacyDiscount": "IP Pharmacy Discount",
+    "defaultCountry": "Default Country",
+    "defaultState": "Default State",
+    "defaultCity": "Default City",
+    "immunizationService": "Immunization Service"
+  },
+  "bedBillingClassMaster": {
+    "searchBedBillingClass": "Search Bed-Billing-Class",
+    "bedBillingClassMaster": "Bed Billing Class Master",
+    "bedBillingClassName": "Bed Billing Class Name",
+    "bedBillingClassCode": "Bed Billing Class Code",
+    "typeOfVisit": "Type Of Visit"
+  },
+  "patientTypeMaster": {
+    "patientTypeInformation": "Patient Type Information",
+    "patientTypeCode": "Patient Type Code",
+    "patientTypeName": "Patient Type Name"
+  },
+  "patientSubTypeMaster": {
+    "patientSubType": "Patient Sub-Type",
+    "patientSubTypeCode": "Patient Sub-Type Code",
+    "subType": "Sub Type",
+    "tariffScheme": "Tariff Scheme"
+  },
+  "serviceCategoryMaster": {
+    "serviceCode": "Service Code",
+    "doctorRequired": "Doctor Required",
+    "doctorShare": "Doctor Share",
+    "defaultService": "Default Service",
+    "serviceRendTimeLine": "Service Rend Time Line"
+  },
+  "tariffCodeMaster": {
+    "tariffMaster": "Tariff Master",
+    "tariffSchemeMaster": "Tariff Scheme",
+    "tariffCode": "Tariff Scheme Code",
+    "tariffName": "Tariff Scheme Name"
+  },
+  "serviceTariffSheetMaster": {
+    "serviceTariffSheet": "Service Tariff Sheet",
+    "serviceTariffMaster": "Service Tariff Master",
+    "serviceTariffCode": "Service Tariff Code",
+    "serviceTariffName": "Service Tariff Name",
+    "bedBillingClass": "Bed Billing Class",
+    "applyToAllTariffSchemes": "Apply To All Tariff Schemes",
+    "applyToAllBillingClass": "Apply To All Billing Class"
+  },
+  "packagePlanMaster": {
+    "packagePlan": "Package Plan",
+    "packagePlanCode": "Package Plan Code",
+    "launchDateOfPackagePlan": "Launch Date Of Package Plan",
+    "packagePlanName": "Package Plan Name",
+    "packagePlanSanctionedBy": "Package Plan Sanctioned By"
+  },
+  "healthCheckupPlanMaster": {
+    "healthCheckupPlan": "Health Checkup Plan",
+    "launchDateOfHealthCheckupPlan": "Launch Date Of Health Checkup Plan",
+    "healthCheckupPlanCode": "Health Checkup Plan Code",
+    "healthCheckupPlanName": "Health Checkup Plan Name",
+    "healthCheckupPlanSanctionedBy": "Health Checkup Plan Sanctioned By"
+  },
+  "itemMaster": {
+    "itemCode": "Item Code",
+    "itemName": "Item Name",
+    "itemType": "Item Type",
+    "itemGroup": "Item Group",
+    "itemSubGroup": "Item Sub-Group",
+    "packSize": "Pack Size",
+    "mrp": "MRP",
+    "purchaseRate": "Purchase Rate",
+    "gst%(TAX)": "GST % (TAX)",
+    "taxOnPurchase": "Tax On Purchase",
+    "taxOnSales": "Tax On Sales",
+    "orderingUnit": "Ordering Unit",
+    "dispensingUnit": "Dispensing Unit",
+    "supplierName": "Supplier Name",
+    "deliveryMode": "Delivery Mode",
+    "deliveryTerms": "Delivery Terms",
+    "paymentTerms": "Payment Terms",
+    "otherTerms": "Other Terms",
+    "manufacturer": "Manufacturer",
+    "batchNo": "Batch No.",
+    "expiryDate": "Expiry Date",
+    "noMRP": "No MRP",
+    "isNonChargable.": "Is Non-chargable.",
+    "isReturnable": "Is Returnable",
+    "scheduleItem": "Schedule Item",
+    "narcoticItem": "Narcotic Item",
+    "drugFormulary": "Drug Formulary",
+    "criticalMedicine": "Critical Medicine",
+    "alike": "Alike"
+  },
+  "prefixCodeMaster": {
+    "prefixName": "Prefix / Title Name",
+    "prefixCode": "Prefix / Title Code",
+    "selectPrefixFor": "Select Prefix For",
+    "dateFormat": "Date Format",
+    "startFrom": "Start From",
+    "codeFormula": "Code Formula"
+  },
+  "bankMaster": {
+    "bank": "Bank",
+    "bankCode": "Bank Code",
+    "branchName": "Branch Name",
+    "bankName": "Bank Name",
+    "accountNo": "Account No.",
+    "ifscCode": "IFSC Code",
+    "micrNo": "MICR NO.",
+    "societyDetails": "Society Details"
+  },
+  "creditCardMaster": {
+    "creditCard": "Credit Card",
+    "creditCardCompBankCode": "Credit Card Comp. / Bank Code",
+    "creditCardCompBankName": "Credit Card Comp. / Bank Name "
+  },
+  "debitCardMaster": {
+    "debitCard": "Debit Card",
+    "debitCardCode": "Debit Card Code",
+    "debitCardName": "Debit Card Name"
+  },
+  "branchMaster": {
+    "branchCode": "Branch Code",
+    "branchName": "Branch Name",
+    "branchLocation": "Branch Location"
+  },
+  "branchLocationMaster": {
+    "branchLocationCode": "Branch Location Code",
+    "branchLocationName": "Branch Location Name"
+  },
+  "cityMaster": {
+    "cityCode": "City Code",
+    "cityName": "City Name"
+  },
+  "countryMaster": {
+    "countryCode": "Country Code",
+    "countryName": "Country Name"
+  },
+  "districtMaster": {
+    "districtCode": "District Code",
+    "districtName": "District Name"
+  },
+  "stateMaster": {
+    "stateCode": "State Code",
+    "stateName": "State Name"
+  },
+  "talukaMaster": {
+    "talukaCode": "Taluka Code",
+    "talukaName": "Taluka Name"
+  },
+  "genderMaster": {
+    "genderCode": "Gender Code",
+    "gender": "Gender"
+  },
+  "titleMaster": {
+    "prefixTitle": "Prefix/Title",
+    "titleCode": "Title Code",
+    "title": "Title"
+  },
+  "patientTagMaster": {
+    "patientTag": "Patient Tag",
+    "patientTagCode": "Patient Tag Code"
+  },
+  "idProofMaster": {
+    "idProof": "Id Proof",
+    "idProofCode": "Id Proof Code"
+  },
+  "paymentModeMaster": {
+    "paymentMode": "Payment Mode",
+    "paymentType": "Payment Type",
+    "paymentModeCode": "Payment Mode Code",
+    "paymentModeName": "Payment Mode Name",
+    "paymentTypeCode": "Payment Type Code",
+    "paymentTypeName": "Payment Type Name"
+  },
+  "schemeMaster": {
+    "govtSchemeMaster": "Govt. Scheme Master",
+    "govtSchemeCode": "Govt. Scheme Code",
+    "govtSchemeName": "Govt. Scheme Name"
+  },
+  "patientSourceMaster": {
+    "patientSource": "Patient Source",
+    "patientSourceCode": "Patient Source Code",
+    "patientSourceName": "Patient Source Name"
+  },
+  "specialisationMaster": {
+    "specialisationCode": "Specialisation Code",
+    "specialisationFacultyCode": "Specialisation / Faculty Code",
+    "specialisationName": "Specialisation Name"
+  },
+  "serviceRendTimeMaster": {
+    "serviceRendTime": "Service Rend Time",
+    "serviceRendTimeCode": "Service Rend Time Code"
+  },
+  "dynamicFieldsMaster": {
+    "dynamicField": "Dynamic Field",
+    "dynamicCode": "Dynamic Code",
+    "dynamicName": "Dynamic Name"
+  },
+  "ticketCategoryMaster": {
+    "ticketCategory": "Ticket Category",
+    "ticketCategoryCode": "Ticket Category Code",
+    "ticketCategoryName": "Ticket Category Name"
+  },
+  "ticketSubCategoryMaster": {
+    "ticketSubCategory": "Ticket Sub-Category",
+    "ticketSubCategoryCode": "Ticket Sub-Category Code",
+    "ticketSubCategoryName": "Ticket Sub-Category Name"
+  },
+  "ticketSourceMaster": {
+    "ticketSource": "Ticket Source",
+    "ticketSourceCode": "Ticket Source Code",
+    "ticketSourceName": "Ticket Source Name"
+  },
+  "ticketStatusMaster": {
+    "ticketStatus": "Ticket Status",
+    "ticketStatusCode": "Ticket Status Code",
+    "ticketStatusName": "Ticket Status Name"
+  },
+  "doctorMaster": {
+    "superSpecialist": "Super Specialist",
+    "discountAuthorization": "Discount Authorization",
+    "sharingApplicable": "Sharing Applicable",
+    "imcRegistrationNo": "IMC Registration No.",
+    "joiningDate": "Joining Date",
+    "leavingDate": "Leaving Date",
+    "availableDays": " Available Days",
+    "fromTime": "From Time",
+    "toTime": "To Time",
+    "notAvailableDays": "Not Available Days",
+    "leaveFromDate": "Leave From Date",
+    "leaveToDate": "Leave To Date",
+    "doctorDocument": "Doctor Document",
+    "toShowMaxiNo": "To Show Max. No.",
+    "toShowForMaxiMonths": "To Show For Max. Months"
+  },
+  "referringDoctor": {
+    "refDoctorCode": "Ref. Doctor Code"
+  },
+  "doctorTypeMaster": {
+    "doctorType": "Doctor Type",
+    "doctorTypeCode": "Doctor Type Code"
+  },
+  "degreeMaster": {
+    "doctorDegree": "Doctor Degree",
+    "degreeCode": "Degree Code"
+  },
+  "gradeMaster": {
+    "grade": "Grade",
+    "gradeCode": "Grade Code"
+  },
+  "departmentMaster": {
+    "departmentCode": "Department Code",
+    "departmentName": "Department Name"
+  },
+  "subDepartmentMaster": {
+    "subDepartmentCode": "Sub-Department Code",
+    "subDepartmentName": "Sub-Department Name"
+  },
+  "authorization": {
+    "discountAuthorization": "Discount Authorization",
+    "discountAuthorityCode": "Discount Authority Code",
+    "discountAuthority": "Discount Authority"
+  },
+  "cancellationReasonMaster": {
+    "cancellationReason": "Cancellation Reason",
+    "cancellationReasonCode": "Cancellation Reason Code"
+  },
+  "discountReasonMaster": {
+    "discountReason": "Discount Reason",
+    "discountReasonCode": "Discount Reason Code"
+  },
+  "opdClinicMaster": {
+    "opdClinic": "OPD Clinic",
+    "opdClinicCode": "OPD Clinic Code",
+    "opdClinicName": "OPD Clinic Name",
+    "opdClinicDepartment": "OPD Clinic Department"
+  },
+  "entityMaster": {
+    "entityName": "Entity Name",
+    "associateBranch": "Associate Branch",
+    "sameAsClinicAddress": "Same as clinic address"
+  },
+  "levelMaster": {
+    "levelCode": "Level Code",
+    "levelName": "Level Name"
+  },
+  "icdMaster": {
+    "icd": "ICD",
+    "category": "Category",
+    "subCategory": "Sub-Category"
+  },
+  "purposeOfVisitMaster": {
+    "purposeOfVisit": "Purpose Of Visit",
+    "purposeOfVisitCode": "Purpose Of Visit Code",
+    "purposeOfVisitName": "Purpose Of Visit Name"
+  },
+  "certificateMaster": {
+    "certificateLetter": "Certificate / Letter",
+    "certificateLetterCode": "Certificate / Letter Code",
+    "certificateLetterName": "Certificate / Letter Name"
+  },
+  "patientRegistration": {
+    "registrationDateAndTime": "Registration Date & Time",
+    "patientTag": "Patient Tag",
+    "patientType": "Patient Type",
+    "patientSubType": "Patient Sub-Type",
+    "ageOnRegistration": "Age on Registration",
+    "SameAsCorrespondenceAddress": "Same As correspondence Address",
+    "days": "Days",
+    "months": "Months",
+    "years": "Years",
+    "idType": "ID Type",
+    "idNumber": "ID No.",
+    "expiryDate": "Expiry Date",
+    "mobileNumberOneWhatsApp": "Mobile No. 1 (Messaging No.)",
+    "relativeName": "Relative Name",
+    "relativeContactNumber": "Relative Contact Number",
+    "relationWithPatient": "Relation With Patient"
+  },
+  "patientMerge": {
+    "ageOnRegistration": "Age on Registration"
+  },
+  "doctorDesk": {
+    "clinicBranch": "Clinic/Branch",
+    "branchLocation": "Branch Location",
+    "totalAppointments": "Total Appointments"
+  },
+  "doctorConsultation": {
+    "systolic(mmHg)": "Systolic (mmHg)",
+    "diastolic(mmHg)": "Diastolic (mmHg)",
+    "pulse(bpm)": "Pulse (bpm)",
+    "temperature(°C/°F)": "Temperature (°C/°F)",
+    "weight(kg)": "Weight (kg)",
+    "height(cm, Inch)": "Height (cm, Inch)",
+    "bmi": "BMI",
+    "respiration(P. Min.)": "Respiration (P. Min.)",
+    "pastHistory": "Past History",
+    "familyHistory": "Family History",
+    "occupationalHistory": "Occupational History",
+    "socialHistory": "Social History",
+    "medicationHistory": "Medication History",
+    "obstreticHistory": "Obstretic History",
+    "personnalHistory": "Personnal History",
+    "otherInfo": "Other Info.",
+    "complaintsSymptoms": "Complaints & Symptoms",
+    "detailHistory": "Detail History",
+    "diagnosis": "Diagnosis",
+    "description": "Description :",
+    "clinicalParameter": "Clinical Parameter",
+    "curValue": "Cur. Value",
+    "lastValue": "Last Value",
+    "prevValue": "Prev. Value",
+    "tests": "Tests",
+    "importRMPrescription": "Import RM Prescription",
+    "importLastPrescription": "Import Last Prescription",
+    "medicineName": "Medicine Name",
+    "selectLanguagesPrescription": "Select Languages Prescription",
+    "generalAdvise": "General Advise",
+    "followupAfterNoOfDays": "Follow-up After No. Of Days",
+    "followupDate": "Follow-up Date",
+    "followupTime": "Follow-up Time",
+    "instructions": "Instructions",
+    "referToInHouseDoctor": "Refer To In House Doctor",
+    "referToOutsideDoctor": "Refer To Outside Doctor",
+    "referToHospital": "Refer To Hospital",
+    "referralInformation": "Referral Information",
+    "prescriptionName": "Prescription Name",
+    "visitNo": "Visit No."
+  },
+  "advancedReciept": {
+    "benefit": "Benefit",
+    "eligibleAmount": "Eligible Amount",
+    "authPersonName": "Auth. Person Name",
+    "validFrom": "Valid From",
+    "validThru": "Valid Thru"
+  }
+}

@@ -1,0 +1,412 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("assets/fonts/SourceSansPro-Bold.eot");
+  src: url("assets/fonts/SourceSansPro-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("assets/fonts/SourceSansPro-Bold.woff2") format("woff2"),
+    url("assets/fonts/SourceSansPro-Bold.woff") format("woff"),
+    url("assets/fonts/SourceSansPro-Bold.ttf") format("truetype"),
+    url("assets/fonts/SourceSansPro-Bold.svg#SourceSansPro-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("assets/fonts/SourceSansPro-SemiBold.eot");
+  src: url("assets/fonts/SourceSansPro-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("assets/fonts/SourceSansPro-SemiBold.woff2") format("woff2"),
+    url("assets/fonts/SourceSansPro-SemiBold.woff") format("woff"),
+    url("assets/fonts/SourceSansPro-SemiBold.ttf") format("truetype"),
+    url("assets/fonts/SourceSansPro-SemiBold.svg#SourceSansPro-SemiBold")
+      format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("assets/fonts/SourceSansPro-Regular.eot");
+  src: url("assets/fonts/SourceSansPro-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("assets/fonts/SourceSansPro-Regular.woff2") format("woff2"),
+    url("assets/fonts/SourceSansPro-Regular.woff") format("woff"),
+    url("assets/fonts/SourceSansPro-Regular.ttf") format("truetype"),
+    url("assets/fonts/SourceSansPro-Regular.svg#SourceSansPro-Regular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("assets/fonts/SourceSansPro-Light.eot");
+  src: url("assets/fonts/SourceSansPro-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("assets/fonts/SourceSansPro-Light.woff2") format("woff2"),
+    url("assets/fonts/SourceSansPro-Light.woff") format("woff"),
+    url("assets/fonts/SourceSansPro-Light.ttf") format("truetype"),
+    url("assets/fonts/SourceSansPro-Light.svg#SourceSansPro-Light")
+      format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --blue: #145da1;
+  --green: #00873a;
+}
+
+* {
+  font-family: "Source Sans Pro";
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth !important;
+}
+
+.text-small {
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.text-regular {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.text-large {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.text-medium {
+  font-size: 11px;
+  font-weight: 450;
+}
+
+h1 {
+  font-size: 34px;
+}
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+h5 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* ===================================================main css========================================================= */
+
+#custom-scrollbar::-webkit-scrollbar {
+  width: 5px !important;
+}
+
+/* Track */
+#custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+#custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgb(173, 173, 173);
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+#custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+table > tr > td > thead {
+  background-color: var(--blue);
+  color: white;
+  height: fit-content;
+}
+
+table,
+td,
+th {
+  border: 1px solid lightgray;
+}
+
+.calender .rbc-toolbar-label {
+  font-weight: bold;
+}
+.calender {
+  padding: 20px;
+  box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+    0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+}
+
+.calender ent .rbc-day-slot .rbc-events-container {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+  top: 0;
+}
+
+.rbc-timeslot-group:hover {
+  background-color: #0000000a;
+}
+
+.rbc-allday-cell {
+  display: none !important;
+}
+
+.rbc-header {
+  padding: 15px 0 !important;
+  border-bottom: none !important;
+}
+
+.rbc-timeslot-group {
+  min-height: 50px !important;
+}
+
+.rbc-today {
+  /* color: var(--blue) !important; */
+  font-weight: bold !important;
+}
+
+.rbc-time-content::-webkit-scrollbar-thumb {
+  background-color: var(--green) !important;
+}
+
+
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* for navbar bottom shadow */
+
+.navbar-shadow {
+  box-shadow: 0px 2px 8px #ddd;
+}
+
+.invert {
+  -webkit-filter: invert(100%);
+  /* Safari/Chrome */
+  filter: invert(100%);
+}
+
+
+.shadow-primary:focus {
+  border-color: #38d;
+  box-shadow: 0 0 8px rgb(51 136 221 / 40%);
+  outline: 0 none;
+  transition: ease-in 200ms;
+}
+
+.shadow-success:focus {
+  border-color: #38d;
+  box-shadow: 0 0 8px rgb(51 136 221 / 40%);
+  outline: 0 none;
+  transition: ease-in 200ms;
+}
+
+.shadow-danger:focus {
+  box-shadow: 0 0 8px rgb(255 0 0 / 40%);
+  outline: 0 none;
+  transition: ease-in 200ms;
+}
+
+.muiLabel label[data-shrink="true"] {
+  font-size: 16px;
+}
+
+.muiLabel label[data-shrink="false"] {
+  top: -10px;
+  font-size: 12px;
+}
+.muiSelect label[data-shrink="true"] {
+  font-size: 16px !important;
+}
+
+.muiSelect label[data-shrink="false"] {
+  top: -2px;
+  font-size: 12px !important;
+}
+
+.muiSelect .MuiOutlinedInput-input {
+  font-size: 12px;
+}
+
+.muiTextArea label[data-shrink="false"] {
+  top: 12px;
+  font-size: 12px !important;
+}
+.MuiFormControlLabel-label {
+  font-size: 12px !important;
+  font-family: Montserrat !important;
+}
+.css-1kpdewa-MuiAutocomplete-root .MuiOutlinedInput-root {
+  padding: 0px !important;
+  border-radius: 0px !important
+  ;
+}
+.css-1kpdewa-MuiAutocomplete-root
+  .MuiOutlinedInput-root
+  .MuiAutocomplete-input {
+  padding: 0px 0px !important;
+}
+
+.autocomplete .MuiAutocomplete-input {
+  font-size: 12px !important;
+}
+
+.autocomplete label[data-shrink="true"] {
+  font-size: 16px !important;
+}
+
+.autocomplete label[data-shrink="false"] {
+  top: -8px;
+  font-size: 12px !important;
+}
+
+.css-1k430x0-MuiButtonBase-root-MuiChip-root .MuiChip-deleteIcon {
+  font-size: 14px !important;
+}
+
+.rbc-event.rbc-selected {
+  overflow: visible !important;
+}
+
+
+.scheduler-popper::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.scheduler-popper::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.scheduler-popper::-webkit-scrollbar-thumb {
+  background: rgba(182, 180, 180, 0.993);
+}
+
+/* Handle on hover */
+.scheduler-popper::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.rbc-row-segment {
+  margin-top: 4px !important;
+}
+
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip .tooltiptext {
+  top: 150px;
+  left: 80px;
+  visibility: hidden;
+  animation: fadeAnim 1.0s ease-out;
+  width: 130px;
+  background-color: gray;
+  color: #fff;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+
+#slider {
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+/* width: calc(100% - 100px); */
+    -webkit-transform: translate(100%, 0px);
+  cursor: pointer;
+  -ms-transform: translate(100%, 0px);
+  transform: translate(100%, 0px);
+}
+.slide-in {
+  animation: slide-in 0.5s forwards;
+  transform: translateX(0); /* changed it */
+  transition: transform 0.3s ease-out;
+  -webkit-animation: slide-in 0.5s forwards;
+}
+
+.slide-out {
+  animation: slide-out 0.5s forwards;
+  transform: translateX(0); /* changed it */
+  transition: transform 0.3s ease-out;
+  -webkit-animation: slide-out 0.5s forwards;
+}
+  
+@keyframes slide-in {
+  100% { transform: translateX(0%); }
+}
+
+@-webkit-keyframes slide-in {
+  100% { -webkit-transform: translateX(0%); }
+}
+  
+@keyframes slide-out {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
+
+@-webkit-keyframes slide-out {
+  0% { -webkit-transform: translateX(0%); }
+  100% { -webkit-transform: translateX(-100%); }
+}
+
+table, th, td {
+  border: 1px solid lightgray;
+}
+
+
+.MuiAccordion-root{
+  border-radius: 0% !important;
+}
+
+
+

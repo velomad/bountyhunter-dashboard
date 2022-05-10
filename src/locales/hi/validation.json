@@ -1,0 +1,5 @@
+{
+  "fieldShort": "min of length {{min}} character is required",
+  "fieldLong": "max of length {{max}} is allowed",
+  "requiredField": "this field is required"
+}
