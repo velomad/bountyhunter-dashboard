@@ -89,11 +89,7 @@ const Header = ({ handleLeftDrawerToggle }) => {
 
           <div className="flex items-center lg:flex hidden">
             <div>
-              logo
-            </div>
-
-            <div>
-              logo
+              Bounty Hunter
             </div>
           </div>
 
@@ -116,38 +112,16 @@ const Header = ({ handleLeftDrawerToggle }) => {
 
         <div className="flex items-center space-x-4">
 
-          <div className="mr-8">
-            <div className="relative">
-              <div
-              >
-                logo
-              </div>
 
-              <div
-                style={{ top: "42px" }}
-              >
-              </div>
-            </div>
-          </div>
           <div>
             <Menu
               MenuComponent={AccountMenu}
               menuItems={[
-                { label: "Profile", clickHandler: handleClick },
-                {
-                  label: "Change Password",
-                  clickHandler: () =>
-                    dispatch(
-                      toggleChangePasswordModal(!isChangePasswordModalOpen)
-                    ),
-                },
                 { label: "Logout", clickHandler: () => navigate("/") },
               ]}
             />
           </div>
-          <div>
-           logo
-          </div>
+
         </div>
       </div>
     </React.Fragment>

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Container = ({ children, title, EndAdornment }) => {
+const Container = ({ children, title, endAdornment }) => {
   return (
     <div
       className="px-4 "
@@ -10,7 +10,7 @@ const Container = ({ children, title, EndAdornment }) => {
     >
       <div className="py-2 flex  items-center justify-between">
         <div className="text-blue-light font-semibold uppercase ">{title}</div>
-        {EndAdornment && <div className="">{<EndAdornment />}</div>}
+        {endAdornment && <div className="">{endAdornment}</div>}
       </div>
       {children}
     </div>
